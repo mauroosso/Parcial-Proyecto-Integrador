@@ -4,13 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>TopMusic</title>
-
     <link rel="shortcut icon" type="image/jpg" href="img/logo-naranja.png" />
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 </head>
@@ -25,75 +21,43 @@
                     </figure>
                     <nav class="menuLeft">
                         <ul>
-                            <li><a href="index2.html">home</a></li>
+                            <li><a href="index.html">home</a></li>
                             <li><a href="genero.html">generos</a></li>
-                            <li><a href="search-results.html">resultados de busqueda</a></li>
+                            
                         </ul>
                     </nav>
                     <nav class="menuLeft">
-                        <input type="text" name="buscador" placeholder="welcome to the jungle" />
-                        <button class="buscador" name="buscar">Search</button>
+                        <form action="resultados_busqueda.html" method="get">
+                            <input type="text" name="buscar" placeholder="Buscar..." />
+                            <button class="buscador" name="boton_buscar">Buscar</button>
+                        </form>
                     </nav>
-
                 </article>
                 <article class="opcionesRight">
                     <ul class="menuRight">
                         <li><a href="playlist.html">my playlist</a></li>
                         <li><a href="login.html">login</a></li>
-                        <li><a href="register.html">registro</a></li>
-
+                        <li><a href="registro.html">registro</a></li>
                     </ul>
                 </article>
                 </article>
             </section>
-
         </content-header>
         <content-main>
-
             <div class="breadCrumbs">
-                <h2 class="titulo">Resultados de Busqueda :</h2>
+                <h2 class="titulo"> <span class=""></span></h2>
+
             </div>
-
-
-            <main class="container-row">
-
-
-                <div class="row">
-                    <img src="img/songss/welcomeToTheJungle-guns-and-roses.png" alt="playlist">
-                    <p>Welcome to the jugle</p>
-                    <p></p>
-                </div>
-                <div class="row">
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-
-                </div>
-                <div class="row">
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                </div>
-                <div class="row">
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                </div>
-                <div class="row">
-                    <img src="" alt="">
-                    <p></p>
-                    <p></p>
-                </div>
-
-            </main>
+            <div>
+                <article class="resultado">
+                </article>
+            </div>
         </content-main>
 
         <footer class="footer">
             <section class="footer-left">
-
                 <p class="derechos">© 2021, all rights are reserved to their respective owners.</p>
                 <p class="integrantes">Integrantes del grupo: Mauro Osso</p>
-
             </section>
             <section class="footer-right">
                 <div>
@@ -102,14 +66,12 @@
                         <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></li>
                         <li> <a href="https://www.spotify.com" target="blank"><i class="fab fa-spotify"></i></a></li>
-
                     </ul>
                 </div>
             </section>
-
-
         </footer>
     </main>
+    <script src="js/buscar.js"></script>
 </body>
 
 </html>

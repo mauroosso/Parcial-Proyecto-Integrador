@@ -1,17 +1,5 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
-.row a{
-    background-color: #e55143;
-    text-decoration: none;
-    color: white;
-    border-radius: 5px;
-    padding: 15px;
-}
+columna-titulo {
+    color: goldenrod;
 
-footer{
-    margin-top: 30px;
 }

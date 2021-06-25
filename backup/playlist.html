@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,10 @@
     <title>TopMusic</title>
     <link rel="shortcut icon" type="image/jpg" href="img/logo-naranja.png" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/column.css">
-    <link rel="stylesheet" href="css/playlist.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="css/playlist.css">
 </head>
+
 <body>
     <main class="container">
         <content-header class="encabezado">
@@ -23,17 +24,15 @@
                         <ul>
                             <li><a href="index.html">home</a></li>
                             <li><a href="genero.html">generos</a></li>
-                            
+                            <li><a href="resultados_busqueda.html">resultados de busqueda</a></li>
                         </ul>
-                    </nav>
-                    
+                    </nav>                   
                     <nav class="menuLeft">
                         <form action="resultados_busqueda.html" method="get"> 
                             <input type="text" name="buscar" placeholder="Buscar..." />
                             <button class="buscador" name="boton_buscar">Buscar</button>
                         </form>
                     </nav>
-                
                 </article>
                 <article class="opcionesRight">
                     <ul class="menuRight">
@@ -45,38 +44,48 @@
                 </article>
             </section>
         </content-header>
+
         <content-body>
-            <h2>Playlist</h2>
-            <div class="principal">                
-                <section class="productos">
-                    <columna>
-                        <columna-titulo>
-                            <h2>Tracks</h2>
-                        </columna-titulo>                                
-                        <columna-cuerpo id="columnaTrack">
-                        </columna-cuerpo>
-                    </columna>
-                    <columna>
-                        <columna-titulo>
-                            <h2>Artists</h2>
-                        </columna-titulo>                                
-                        <columna-cuerpo id="columnaArtista">
-                        </columna-cuerpo>
-                    </columna>
-                    <columna>
-                        <columna-titulo>
-                            <h2>Albums</h2>
-                        </columna-titulo>                                
-                        <columna-cuerpo id="columnaAlbum">
-                        </columna-cuerpo>
-                    </columna>                                    
-                </section>
+            <div class="principal">
+
+            <div class="breadCrumbs">
+                <h2 class="titulo">My Playlist</h2>
             </div>
+
+
+            <section class="productos">
+                <columna>
+                    <columna-titulo>
+                        <h2>Tracks</h2>
+                    </columna-titulo>                                
+                    <columna-cuerpo id="columnaTrack">
+                    </columna-cuerpo>
+                </columna>
+                <columna>
+                    <columna-titulo>
+                        <h2>Artists</h2>
+                    </columna-titulo>                                
+                    <columna-cuerpo id="columnaArtista">
+                    </columna-cuerpo>
+                </columna>
+                <columna>
+                    <columna-titulo>
+                        <h2>Albums</h2>
+                    </columna-titulo>                                
+                    <columna-cuerpo id="columnaAlbum">
+                    </columna-cuerpo>
+                </columna>
+            </section>
+
         </content-body>
+
+
         <footer class="footer">
             <section class="footer-left">
+
                 <p class="derechos">© 2021, all rights are reserved to their respective owners.</p>
                 <p class="integrantes">Integrantes del grupo: Mauro Osso</p>
+
             </section>
             <section class="footer-right">
                 <div>
@@ -85,15 +94,12 @@
                         <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com" target="blank"><i class="fab fa-instagram"></i></a></li>
                         <li> <a href="https://www.spotify.com" target="blank"><i class="fab fa-spotify"></i></a></li>
+
                     </ul>
                 </div>
             </section>
         </footer>
- 
-
     </main>
-    <script src="js/playlist.js"></script>  
-    <script>src="js/buscar.js"</script>  
+    <script src="js/playlist.js"></script>
 </body>
-
 </html>

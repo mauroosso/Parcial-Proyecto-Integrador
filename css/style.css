@@ -14,7 +14,7 @@
     .navBar {
         width: 570px;
     }
-    .panel .img{
+    .panel img{
         width: 100%;
 
     }
@@ -51,6 +51,7 @@
     .navBar {
         width: 1024px;
     }
+    
 
 
  }
@@ -63,11 +64,12 @@ body{
 content-header.encabezado {
     position:fixed;    
     background-color: white;
+    display: block;
 }
 
 content-body {
     display: block;
-    padding-top: 50px;
+    padding-top: 90px;
 }
 .container {    
     display: block   ;        
@@ -150,8 +152,7 @@ article ul li {
   }
 
 article.panel {
-    display: inline-block;
-    width: 33%;
+    display: inline-block;    
     padding: 15px
 }
 
@@ -220,6 +221,15 @@ content-main {
     padding-top: 100px;
 }
 
+.no-show {
+    display: none;
+}
 
+.truncate {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
 

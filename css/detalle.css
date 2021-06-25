@@ -1,0 +1,43 @@
+.half1{
+    
+    width:50%;
+    float:left;
+    margin-top: 20px;
+}
+.half2{
+    background-color:white;
+    border-radius: 15px;
+    width:50%;
+    float:left;
+    margin-top: 20px;
+    
+
+    
+}
+
+.container{
+    display:flex
+
+}
+
+content-main {
+    display:flex;
+    width: 100%;
+}
+
+
+.detalle {
+    display: block;
+    width: 100%;
+    margin-top:40px;
+
+}
+
+#detailinfo{
+    display: block;
+}
+#detailName{
+    display: flex;
+    justify-content: center;
+}
+

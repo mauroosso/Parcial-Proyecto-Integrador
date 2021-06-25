@@ -1,0 +1,13 @@
+columna {
+
+    float:left;
+    width: 33%;
+
+}
+
+
+columna-titulo {
+    width: 100%;
+    text-align: center;    
+    display: block;
+}
